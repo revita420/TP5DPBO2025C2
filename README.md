@@ -10,7 +10,7 @@ Program ini adalah aplikasi manajemen data mahasiswa dengan GUI (Graphical User 
 - **Tujuan**: Mengelola koneksi dan opeasi database
 
 - **Metode Utama**:
-  - `selectQuery() : Mengambil data dari database
+  - `selectQuery()` : Mengambil data dari database
   - `insertUpdateDeleteQuery()` : Melakukan operasi insert, update, atau delete
 
 
@@ -24,10 +24,6 @@ Program ini adalah aplikasi manajemen data mahasiswa dengan GUI (Graphical User 
   - `nama` : string untuk nama mahasiswa
   - `jenisKelamin` : string untuk jenis kelamin mahasiswa
   - `fakultas` : string untuk fakultas mahasiswa
-
-- **Atribut:**
-  - `selectedIndex`: Integer untuk menyimpan indeks baris yang dipilih
-  - `listMahasiswa`: ArrayList yang menyimpan objek Mahasiswa
 
 
 # Alur Program
